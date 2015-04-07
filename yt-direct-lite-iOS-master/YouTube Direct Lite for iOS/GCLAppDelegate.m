@@ -8,6 +8,7 @@
 
 #import "GCLAppDelegate.h"
 #import "MainViewController.h"
+#import "YouTubeAPILibs.h"
 
 @implementation GCLAppDelegate
 

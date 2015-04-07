@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B42A1B51AD407C7004407BA /* YouTubeAPILibs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B42A1B41AD407C7004407BA /* YouTubeAPILibs.m */; };
 		104DD6DD1840247B00ECD20B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD6DC1840247B00ECD20B /* Foundation.framework */; };
 		104DD6DF1840247B00ECD20B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD6DE1840247B00ECD20B /* CoreGraphics.framework */; };
 		104DD6E11840247B00ECD20B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DD6E01840247B00ECD20B /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B42A1B31AD407C7004407BA /* YouTubeAPILibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeAPILibs.h; sourceTree = "<group>"; };
+		0B42A1B41AD407C7004407BA /* YouTubeAPILibs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeAPILibs.m; sourceTree = "<group>"; };
 		104DD6D91840247B00ECD20B /* YouTube Direct Lite for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTube Direct Lite for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104DD6DC1840247B00ECD20B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		104DD6DE1840247B00ECD20B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -163,6 +166,8 @@
 		104DD6E21840247B00ECD20B /* YouTube Direct Lite for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0B42A1B31AD407C7004407BA /* YouTubeAPILibs.h */,
+				0B42A1B41AD407C7004407BA /* YouTubeAPILibs.m */,
 				1059C9D9184E953A00D49E24 /* YouTube API Protocols */,
 				108CBEAE1840276900AE232C /* iframe-player.html */,
 				108CBEA91840261A00AE232C /* GTMOAuth2ViewTouch.xib */,
@@ -343,6 +348,7 @@
 				104DD7221840249200ECD20B /* UploadController.m in Sources */,
 				104DD7291840249200ECD20B /* YouTubeDirectTag.m in Sources */,
 				108CBEA8184025EF00AE232C /* GTLYouTube_Sources.m in Sources */,
+				0B42A1B51AD407C7004407BA /* YouTubeAPILibs.m in Sources */,
 				104DD736184024FD00ECD20B /* GTLCommon_Sources.m in Sources */,
 				104DD7231840249200ECD20B /* Utils.m in Sources */,
 				104DD6ED1840247B00ECD20B /* GCLAppDelegate.m in Sources */,
