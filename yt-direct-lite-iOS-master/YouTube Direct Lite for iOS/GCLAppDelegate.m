@@ -14,11 +14,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // File chạy ví dụ
     MainViewController *viewController = [[MainViewController alloc] init];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     navController.toolbarHidden = NO;
     [[self window] setRootViewController:navController];
+    
+    // gọi thử api 
+    [[YouTubeAPILibs sharedManager] doLogin];
+    [[YouTubeAPILibs sharedManager] showMyListVideo];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
